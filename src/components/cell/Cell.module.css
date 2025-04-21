@@ -1,0 +1,25 @@
+.cell {
+    padding: 0.5em 0.5em;
+    border: 1px solid rgb(190, 190, 190);
+    border-top: none;
+
+    font-size: 1.2em;
+    /* margin: 0.5px; */
+
+    transition: 0.2s all ease-in-out;
+
+    resize: none;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+.cell:hover {
+    background-color: rgb(240, 240, 240);
+    cursor: default;
+}
+
+.cell:focus {
+    outline: none;
+    background-color: rgb(230, 230, 230);
+}

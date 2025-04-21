@@ -1,0 +1,38 @@
+.table-container {
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    /* max-width: 2000px; */
+    max-width: 100%;
+}
+
+.table {
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 10px;
+
+    max-width: 100%;
+    width: fit-content;
+
+    padding-bottom: 1.2em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+    margin: 2em 0em;
+}
+
+.table-header {
+    text-align: center;
+
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.table-content {
+    display: flex;
+
+    overflow: scroll;
+}

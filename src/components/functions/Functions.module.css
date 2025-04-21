@@ -1,0 +1,31 @@
+.top-buttons-container {
+    display: flex;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    max-width: 100%;
+    padding: 1em 2em;
+    margin: 2em 5em;
+
+    gap: 2em;
+
+    /* TODO: Make it sticky */
+    position: sticky
+}
+
+.top-button {
+    border: 1px solid black;
+    border-radius: 50%;
+
+    display: block;
+    width: 3em;
+    font-size: 1em;
+
+    aspect-ratio: 1/1;
+    /* Horizontal align */
+    text-align: center;
+    /* Vertical align */
+    align-content: center;
+    background-color: rgb(240, 240, 240);
+}
