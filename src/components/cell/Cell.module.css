@@ -9,12 +9,17 @@
     transition: 0.2s all ease-in-out;
 
     resize: none;
-    white-space: pre-wrap;
+    /* white-space: pre-wrap;
     overflow-wrap: break-word;
+    overflow: hidden; */
+
+    white-space: nowrap;
     overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .cell:hover {
+    /* cursor: default; */
     background-color: rgb(240, 240, 240);
     cursor: default;
 }
@@ -22,4 +27,6 @@
 .cell:focus {
     outline: none;
     background-color: rgb(230, 230, 230);
+
+    border-radius: 10px;
 }
